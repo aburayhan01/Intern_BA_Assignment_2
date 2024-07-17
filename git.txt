@@ -1,0 +1,26 @@
+git init
+
+# local branch create
+git checkout -b main
+
+# Push the main branch to GitHub
+git remote add origin https://github.com/aburayhan01/2nd_Class_Assignment_InternBA.git
+git push -u origin main
+
+# Create and switch to branch
+git checkout -b abu
+
+git add .
+
+# Commit your changes
+git commit -m "Initial commit"
+
+# Push your feature branch to GitHub
+git push -u origin abu
+
+# On GitHub: create and merge the pull request
+
+# merge verificatiob
+git checkout main
+git pull origin main
+
